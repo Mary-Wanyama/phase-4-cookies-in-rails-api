@@ -45,3 +45,14 @@ module Phase4CookiesInRailsApi
     config.action_dispatch.cookies_same_site_protection = :strict
   end
 end
+
+# module MyApp 
+#   class Application < Rails::Application 
+#     config.load_defaults 6:1 
+#     config.api_only = true 
+
+#     config.middleware.use ActionDispatch::cookies 
+#     config.middleware.use ActionDispatch::Session::CookieStore 
+#     config.action_dispatch.cookies_same_site_protection = :strict
+#   end
+# end
